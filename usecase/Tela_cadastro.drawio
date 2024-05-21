@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-21T04:25:20.798Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="3E0Y0OXJk0wgR6AK1c7o" version="24.4.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-05-21T04:26:44.113Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="F9Of88n2GGVW-qV_TcbA" version="24.4.4" type="github" pages="3">
   <diagram name="usecase inicial" id="bYyFj0Z4xE3NFgqJFZPs">
     <mxGraphModel dx="954" dy="674" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -234,7 +234,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="sUHOwO_vQOq9h0RU0Alf" name="Página-2">
+  <diagram id="sUHOwO_vQOq9h0RU0Alf" name="fluxo pagamento">
     <mxGraphModel dx="1434" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -275,6 +275,14 @@
         <mxCell id="yFf3sp5n4ByeulcugOG3-12" value="pesquisar parceiro e usuario que pagou" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="354" y="210" width="120" height="60" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="zqUPlcqJv003Anz8kNS0" name="fluxo cadastro">
+    <mxGraphModel dx="1434" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
