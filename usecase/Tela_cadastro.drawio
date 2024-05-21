@@ -1,4 +1,4 @@
-<mxfile host="Electron" modified="2024-05-19T22:24:06.389Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.4.0 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="s4IFwLkbMv4mFocmpSNk" version="24.4.0" type="device" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-05-21T04:25:20.798Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="3E0Y0OXJk0wgR6AK1c7o" version="24.4.4" type="github" pages="2">
   <diagram name="usecase inicial" id="bYyFj0Z4xE3NFgqJFZPs">
     <mxGraphModel dx="954" dy="674" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -239,6 +239,42 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="yFf3sp5n4ByeulcugOG3-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yFf3sp5n4ByeulcugOG3-2" target="yFf3sp5n4ByeulcugOG3-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yFf3sp5n4ByeulcugOG3-2" value="pagar" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yFf3sp5n4ByeulcugOG3-3" value="registrar transação como INIT_PAYMENT&lt;div&gt;payment_id&lt;/div&gt;&lt;div&gt;partner_id&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="210" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="yFf3sp5n4ByeulcugOG3-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yFf3sp5n4ByeulcugOG3-5" target="yFf3sp5n4ByeulcugOG3-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yFf3sp5n4ByeulcugOG3-5" value="registrar transação como CONFIRM_PAYMENT" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yFf3sp5n4ByeulcugOG3-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yFf3sp5n4ByeulcugOG3-6" target="yFf3sp5n4ByeulcugOG3-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yFf3sp5n4ByeulcugOG3-6" value="confirm payment com paymentid" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yFf3sp5n4ByeulcugOG3-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yFf3sp5n4ByeulcugOG3-7" target="yFf3sp5n4ByeulcugOG3-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yFf3sp5n4ByeulcugOG3-7" value="registrar transação como CREDIT_POINTS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yFf3sp5n4ByeulcugOG3-8" value="adicionar dinheiro na conta do parceiro" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yFf3sp5n4ByeulcugOG3-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yFf3sp5n4ByeulcugOG3-12" target="yFf3sp5n4ByeulcugOG3-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yFf3sp5n4ByeulcugOG3-12" value="pesquisar parceiro e usuario que pagou" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="354" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
